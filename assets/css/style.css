@@ -1,0 +1,134 @@
+@font-face {
+    font-family: Fredericka;
+    src: url("../fonts/FrederickatheGreat-Regular.ttf");
+}
+
+@font-face {
+    font-family: OpenSans;
+    src: url("../fonts/OpenSans-VariableFont_wdth\,wght.ttf");
+}
+
+/* font families */
+/* 
+font-family: Fredericka;
+font-family: OpenSans;
+*/
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: OpenSans;
+    font-size: 13px;
+}
+
+.bgImagePlants {
+    background-image: url("../img/Lev3_2_css-einführung_box-model_img.jpg");
+    height: 90vh;
+    width: 100%; 
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.article123Plants {
+    font-family: Fredericka;
+    font-size: 30px;
+    padding: 2% 10%;
+}
+
+.articleTopCenter {
+    text-align: center;
+    margin: 150px auto 0 auto;
+    width: 15%;
+}
+
+.pWelcomeToTheJungle {
+    font-family: Fredericka;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.buttons {
+    border: 1px solid white;
+    padding: 10px 25px;
+    width: 130px;
+    text-align: center;
+}
+
+.buttons:hover {
+    border: 1px solid #3A3B4A;
+    background-color: white;
+    color: #3A3B4A;
+}
+
+.buttonReadMore {
+    margin: 30px auto;
+}
+
+.articleAboutNav {
+    text-align: right;
+    padding: 100px 200px 0 0;
+}
+
+a, a:visited {
+    text-decoration: none;
+    display: block;
+    padding: 5px 5px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.aNotPhone {
+    color: white;
+} 
+
+.sectionWhite {
+    text-align: center;
+}
+
+.articleDecorating {
+    font-family: Fredericka;
+    font-size: 25px;
+    margin: 40px auto;
+}
+
+.articleLongestText {
+    margin: auto;
+    width: 500px;
+    line-height: 20px;
+}
+
+.articleContactPhone {
+    border: 3px double black;
+    width: 150px;
+    margin: 40px auto 100px auto;
+    padding: 20px 10px;
+    text-align: center;
+}
+
+.aPhone {
+    color: black;
+}
+
+.sectiondarkbg {
+    background-color: #3A3B4A;
+    color: white;
+    padding: 20px 20px;
+}
+
+.pTextBottom {
+    width: 30%;
+    margin-bottom: 30px;
+}
+
+.aBottomNav {
+    display: inline-block;
+}
+
+.articleBottomNav {
+    text-align: right;
+}
