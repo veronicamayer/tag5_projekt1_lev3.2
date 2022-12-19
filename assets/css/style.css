@@ -32,13 +32,13 @@ font-family: OpenSans;
     color: white;
 }
 
-.article123Plants {
+.div123Plants {
     font-family: Fredericka;
     font-size: 30px;
     padding: 2% 10%;
 }
 
-.articleTopCenter {
+.sectionTopCenter {
     text-align: center;
     margin: 150px auto 0 auto;
     width: 15%;
@@ -67,9 +67,11 @@ font-family: OpenSans;
     margin: 30px auto;
 }
 
-.articleAboutNav {
+.sectionAboutNav {
     text-align: right;
-    padding: 100px 200px 0 0;
+    margin-left: 80%;
+    padding: 50px 200px 0 0;
+    width: 45px;
 }
 
 a, a:visited {
@@ -86,23 +88,23 @@ a:hover {
     color: white;
 } 
 
-.sectionWhite {
+.bgWhite {
     text-align: center;
 }
 
-.articleDecorating {
+.sectionDecorating {
     font-family: Fredericka;
     font-size: 25px;
     margin: 40px auto;
 }
 
-.articleLongestText {
+.sectionLongestText {
     margin: auto;
     width: 500px;
     line-height: 20px;
 }
 
-.articleContactPhone {
+.sectionContactPhone {
     border: 3px double black;
     width: 150px;
     margin: 40px auto 100px auto;
@@ -114,7 +116,7 @@ a:hover {
     color: black;
 }
 
-.sectiondarkbg {
+.bgDark {
     background-color: #3A3B4A;
     color: white;
     padding: 20px 20px;
@@ -129,6 +131,6 @@ a:hover {
     display: inline-block;
 }
 
-.articleBottomNav {
+.sectionBottomNav {
     text-align: right;
 }
